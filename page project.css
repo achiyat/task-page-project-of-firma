@@ -1,0 +1,286 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: white;
+  width: 1440.7px;
+  height: 1128.32px;
+  left: 0px;
+  top: 0px;
+}
+
+/************header**************/
+header {
+  margin: 5%;
+  margin-right: 130px;
+  margin-left: 100px;
+  width: 1155.48px;
+  height: 41.79px;
+  top: 51.19px;
+}
+
+.nav_header {
+  display: flex;
+}
+
+.div1_header {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30%;
+}
+
+.div2_header {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-left: 30%;
+}
+
+a {
+  font-family: "Cera Pro";
+  margin-left: 30.26px;
+  text-decoration: none;
+  font-size: 20px;
+  color: gray;
+}
+/*******end**header**************/
+
+/************main**************/
+main {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 131.64px;
+}
+
+.div1_main {
+  position: relative;
+  margin-left: -35px;
+}
+
+.Vector1 {
+  position: absolute;
+  width: 80px;
+  height: 15px;
+  left: 28px;
+  top: 170px;
+}
+
+.p1_main {
+  position: absolute;
+  font-family: "Axiforma";
+  font-style: normal;
+  align-items: center;
+  width: 496px;
+  height: 282px;
+  left: 27px;
+  top: 192px;
+  font-weight: 700;
+  font-size: 73px;
+  line-height: 68px;
+  color: #000000;
+}
+
+/****glass****/
+.glass {
+  display: flex;
+  position: absolute;
+  width: 835px;
+  height: 110px;
+  left: -5px;
+  top: 550px;
+  backdrop-filter: blur(35.5212px);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(248, 248, 248, 0.31);
+  border-image: initial;
+  background: rgba(243, 243, 243, 0.6);
+  border-radius: 5.22371px;
+  z-index: 1;
+}
+
+.svg_glass {
+  margin-top: 39px;
+  margin-left: 55px;
+  height: 24px;
+}
+
+.p1_box {
+  margin-top: 40px;
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.p2_box {
+  margin-top: 43px;
+  margin-left: 223px;
+  font-size: 20px;
+}
+
+button {
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  font-family: "Cera Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 17px;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+
+  width: 195px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 180px;
+  color: white;
+  z-index: 1;
+  background: rgb(253, 91, 47);
+  border-radius: 5.22371px;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+}
+
+.zoom:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  text-decoration: solid;
+}
+/**end glass**/
+
+/****nav main****/
+.nav_main {
+  position: absolute;
+  top: 700px;
+  left: 25px;
+  width: 205px;
+}
+
+.nav_main > img {
+  position: relative;
+  border-radius: 100%;
+  margin-right: -17px;
+  width: 40px;
+  height: 40px;
+  top: 0px;
+}
+
+.p2_main {
+  position: absolute;
+  left: 168px;
+  top: 5px;
+  color: white;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.p3_main {
+  position: absolute;
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 38px;
+  width: 421.38px;
+  height: 27.23px;
+  left: 220px;
+  top: 3px;
+}
+/**end nav main**/
+
+/****left main****/
+.div2_main {
+  position: absolute;
+  left: 60px;
+}
+
+.image_50 {
+  position: absolute;
+  border-top-left-radius: 285px;
+  border-top-right-radius: 285px;
+
+  border-left: 3px solid #a7327a;
+  border-top: 3px solid #a7327a;
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 573.56px;
+  height: 764.75px;
+  left: 473px;
+  top: -15.14px;
+}
+
+.p4_main {
+  position: absolute;
+  font-family: "Axiforma";
+  transform: rotate(270deg);
+  align-self: flex-end;
+  margin: 0%;
+  width: 354px;
+  left: 925px;
+  top: 550px;
+  height: 75px;
+  font-size: 69px;
+  color: gray;
+}
+
+.nav2_main {
+  position: absolute;
+  left: -134px;
+  top: -189px;
+}
+
+.img_radius {
+  border-radius: 100%;
+}
+
+.Ellipse1 {
+  position: absolute;
+  width: 230.89px;
+  height: 230.89px;
+  left: 1039.37px;
+  top: 164.55px;
+  filter: drop-shadow(0px 56.4161px 87.7584px rgba(255, 200, 118, 0.75));
+}
+
+.Ellipse2 {
+  position: absolute;
+  width: 141.04px;
+  height: 141.04px;
+  left: 1197px;
+  top: 455.36px;
+  filter: drop-shadow(0px 56.4161px 87.7584px rgba(255, 200, 118, 0.75));
+}
+
+.Ellipse3 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  left: 1270px;
+  top: 340px;
+}
+/**end left main**/
+
+/*****footer*****/
+footer {
+  position: absolute;
+  min-width: max-content;
+  bottom: 318px;
+  top: 1039px;
+  left: 395px;
+  height: 40px;
+}
+
+footer > img {
+  position: relative;
+  margin-right: 70px;
+  width: 90px;
+  min-width: max-content;
+}
+/***end footer***/
